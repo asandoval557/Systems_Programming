@@ -1,0 +1,13 @@
+﻿  Console.cpp
+  Item.cpp
+  main.cpp
+  MemoryTracker.cpp
+  ScopeMain.cpp
+C:\FS\SPR\SPR Dynamic Memory Lab 2.0\DList.h(122,28): error C2065: 'size': undeclared identifier
+  (compiling source file 'ScopeMain.cpp')
+  
+C:\FS\SPR\SPR Dynamic Memory Lab 2.0\DList.h(122,28): error C3861: 'size': identifier not found
+  (compiling source file 'ScopeMain.cpp')
+  
+  Store.cpp
+  Generating Code...

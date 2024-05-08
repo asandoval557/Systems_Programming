@@ -1,0 +1,23 @@
+Write your debugging steps and thought process here (This is part of your grade)
+
+Inventory.h
+	- destructor method added then used a loop to delete all m_Items
+	- delete nSize to print method 
+
+Item.cpp/Item.h
+	- delete m_Value to line 8 of the Item constructor in Item.cpp(when adding delete to line 9 I was recieving an error, I removed from line 9.
+	  ran the debugger looked at where the memopry leak was originating which was the constructor. That is when I added delete m_Value between the
+	  2 variables and recieved a pass.)
+	- delete value to Print function
+	- declared ~Item() destructor
+	- defined destructor ~Item 
+
+Store.cpp/Store.h
+	-delete helperItem to Store constructor
+	-delete m_Inventories array
+	declared ~Store() destructor
+	-defined destructor ~Store
+
+ScopeMain.cpp
+	- delete s
+	

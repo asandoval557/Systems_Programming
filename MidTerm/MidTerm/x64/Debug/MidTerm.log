@@ -1,0 +1,3 @@
+﻿  MidTerm.cpp
+C:\FS\SPR\MidTerm\MidTerm\MidTerm.cpp(12,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MidTerm.vcxproj -> C:\FS\SPR\MidTerm\x64\Debug\MidTerm.exe
